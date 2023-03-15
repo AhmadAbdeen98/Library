@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[BOOKS] (
+    [ID]          INT           IDENTITY (1, 1) NOT NULL,
+    [TITLE]       VARCHAR (250) NOT NULL,
+    [CATEGORY_ID] INT           NOT NULL,
+    [DESCRIPTION] VARCHAR (500) NULL,
+    PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+
